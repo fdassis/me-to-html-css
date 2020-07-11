@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Font Size</title>
+
+    <style type="text/css">
+      /*
+        px -> Tamanho fixo
+        %  -> Tamanho relativo
+        em -> Tamanho relativo ao container pai
+      */
+      #texto1{
+        font-size: 90px;
+      }
+      #texto2{
+        font-size: 300%;
+      }
+
+      div{
+        font-size: 60px;
+      }
+
+      .texto_em{
+        font-size: 0.4em;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <p id="texto1">
+      Conteudo 01
+    </p>
+
+    <p id="texto2">
+      Conteudo 01
+    </p>
+
+    <div>
+      <p class="texto_em">Conteudo c/ em</p>
+      <p>Conteudo s/ em</p>
+    </div>
+    
+  </body>
+
+</html>
