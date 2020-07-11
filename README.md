@@ -33,12 +33,10 @@
 - ### Anna Bella
   <p float="left">
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=200/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250/>
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" width=200/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" width=250/>
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=200/>
-
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/contatos_anna_bella.png" width=200/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250/>
 
   </p> 
