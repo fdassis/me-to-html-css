@@ -5,7 +5,13 @@
 ---
 
 <p align="center">
-<img alt="Github languages" src="https://img.shields.io/github/languages/count/fdAssis/Desenvolvimento-Web?color=blue&style=flat"> <img alt="Github languages top" src="https://img.shields.io/github/languages/top/fdAssis/Desenvolvimento-Web?style=flat"> <img alt="Github Start" src="https://img.shields.io/github/stars/fdAssis/Desenvolvimento-Web?color=purple&style=social">
+
+  <img alt="Count Linguage" src="https://img.shields.io/github/languages/count/fdAssis/Desenvolvimento-Web?logo=HackerOne" />
+
+  <img alt="Github languages top" src="https://img.shields.io/github/languages/top/fdAssis/Desenvolvimento-Web?style=flat" />
+
+  <img alt="Github Start" src="https://img.shields.io/github/stars/fdAssis/Desenvolvimento-Web?color=purple&style=social" />
+
 </p>
 
 <p align="center">
@@ -33,10 +39,10 @@
 - ### Anna Bella
   <p float="left">
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250 title="Pagina de Sobre"/>
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" width=250/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" width=250 title="Pagina de Biografia"/>
 
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250/>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250 title="Pagina de Campanhas"/>
 
   </p> 
