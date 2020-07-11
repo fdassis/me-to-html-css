@@ -28,32 +28,10 @@
    - <a href="#Unes">Unes</a>
    - <a href="#Anna-Bella">Anna Bella</a>
 ---
-<style>
-  div.box {
-	  width: 250px;
-	  display: inline-block;
-  }
-</style>
-
 
 - ### Unes
 - ### Anna Bella
-  <div class="box">
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" />
+  <div>
+    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250/>
     <span>Pagina sobre</span>
   </div> 
-
-  <div class="box">
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" />
-    <span>Pagina de biografia</span>
-  </div> 
-
-  <div class="box">
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" />
-    <span>Pagina de campanhas</span>
-  </div> 
-
-  <div class="box">
-    <img src="PROJECTS/Projeto_Anna_Bella/screenshot/contatos_anna_bella.png" />
-    <span>Pagina de contatos</span>
-  </div>
