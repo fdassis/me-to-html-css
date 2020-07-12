@@ -51,14 +51,13 @@
 ---
 - ### Anna Bella
   Projeto destinado a demostrar o uso basico de tags HTML com folhas de estilos (CSS). Foram usados conseitos basico de CCS como alinhamento e formatação de texto, background, bordas em images e estilização de menu.
-  <p float="left"
+  <p float="left">
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250 title="Pagina de Sobre"/>
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/biografia_anna_bella.png" width=250 title="Pagina de Biografia"/>
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250 title="Pagina de Campanhas"/>
-
   </p>
 
 ---
