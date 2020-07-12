@@ -37,7 +37,7 @@
 
 - ### Unes
   Site para uma universidade ficticia chamada Unes. O site com três paginas: principal, sobre e contatos.
-  A Pagina inical fala um pouco sobre a universidade, ela tem como objetivo demostrar o uso de estilos de formatação de texto, como negrito e itlaico, uso de tegs de marcação de texto e links. A Pagina Quem somos é utilizada para a demostração do uso de listas, e por fim a pagina Contato é aqui utilizada para demostar as tegs de input e o uso de botons.
+  A Pagina inical fala um pouco sobre a universidade, ela tem como objetivo demostrar o uso de estilos de formatação de texto, como negrito e itlaico, uso de tegs de marcação de texto e links. A Pagina Quem somos é utilizada para a demostração do uso de listas, e por fim a pagina Contato é aqui utilizada para demostar as tegs de input e o uso de botões.
 
   <p float="left">
 
