@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#octocat-sobre-o-repositorio">Sobre esse repositorio </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#milky_way-índice">Projetos </a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#octocat-sobre-o-repositorio">Sobre esse repositorio </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#milky_way-projetos">Projetos </a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp; 
 </p>
 
@@ -36,6 +36,9 @@
 ---
 
 - ### Unes
+  Site para uma universidade ficticia chamada Unes. O site com três paginas: principal, sobre e contatos.
+  A Pagina inical fala um pouco sobre a universidade, ela tem como objetivo demostrar o uso de estilos de formatação de texto, como negrito e itlaico, uso de tegs de marcação de texto e links. A Pagina Quem somos é utilizada para a demostração do uso de listas, e por fim a pagina Contato é aqui utilizada para demostar as tegs de input e o uso de botons.
+
   <p float="left">
 
     <img src="PROJECTS/Projeto_Unes/screenshot/sobre_unes.png" width=250 title="Pagina de Sobre"/>
@@ -47,7 +50,8 @@
   </p> 
 ---
 - ### Anna Bella
-  <p float="left">
+  Projeto destinado a demostrar o uso basico de tags HTML com folhas de estilos (CSS). Foram usados conseitos basico de CCS como alinhamento e formatação de texto, background, bordas em images e estilização de menu.
+  <p float="left"
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/index_anna_bella.png" width=250 title="Pagina de Sobre"/>
 
@@ -55,4 +59,10 @@
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250 title="Pagina de Campanhas"/>
 
-  </p> 
+  </p>
+
+---
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
