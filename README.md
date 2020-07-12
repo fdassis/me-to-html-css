@@ -59,9 +59,10 @@
 
     <img src="PROJECTS/Projeto_Anna_Bella/screenshot/campanhas_anna_bella.png" width=250 title="Pagina de Campanhas"/>
   </p>
-
 ---
 
+
+- ### Tec News
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
