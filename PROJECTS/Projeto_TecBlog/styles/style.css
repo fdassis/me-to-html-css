@@ -14,6 +14,7 @@ body {
 #### Layout ####
 */
 #area-cabecalho {
+  width: 100%;
   background-color: #f7b600;
   padding: 15px;
   text-align: center;
@@ -21,6 +22,48 @@ body {
 
 #area-logo, #area-menu {
   padding: 10px
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0 auto;
+}
+
+#area-lateral {
+  background-color: orangered;
+}
+
+#postagens {
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+
+/* 
+### Formatacao da postagem ###
+*/
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+
+.postagem img {
+  width: 620px;
+}
+
+/*
+### Formataco do rodape ###
+*/
+#rodape {
+  background-color: #CCC;
+  text-align: center;
+  padding: 15px;
+  clear: both;
 }
 
 /*
