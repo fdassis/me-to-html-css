@@ -25,12 +25,9 @@ body {
 }
 
 #area-principal {
+  padding: 15px;
   width: 920px;
   margin: 0 auto;
-}
-
-#area-lateral {
-  background-color: orangered;
 }
 
 #postagens {
@@ -56,6 +53,29 @@ body {
   width: 620px;
 }
 
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px  solid  #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom:10px;
+  display: block;
+}
+
+
+/*
+### Conteudo lateral
+*/
+.conteudo-lateral {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.texto-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
 /*
 ### Formataco do rodape ###
 */
@@ -67,20 +87,34 @@ body {
 }
 
 /*
-#### Formatacao menu ###
+### Formatacao de links 
 */
 a {
   text-decoration: none
 }
 
 a:link, a:visited {
+  color: #f7b600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/*
+#### Formatacao menu ###
+*/
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
   color: #FFF;
   padding: 8px 12px;
 }
 
-a:hover {
+#area-cabecalho a:hover {
   color: #f7b600;
   background-color: #FFF;
+  text-decoration: none;
 }
 
 /*
@@ -89,6 +123,16 @@ a:hover {
 h1 {
   color: #4e4e4e;
   font-size: 2.5em;
+}
+
+h2 {
+  color : #f7b600
+}
+
+h3 {
+  color: #4e4e4e;
+  background-color: #CCC;
+  padding: 5px;
 }
 
 .branco {
