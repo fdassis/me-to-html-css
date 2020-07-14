@@ -1,0 +1,19 @@
+#noticia {
+  background: purple;
+  padding: 10px;
+  border: solid 1px gray;
+}
+
+#noticia h2{
+  margin: 0px;
+}
+
+/*
+.conteudo {
+  border: solid 2px red;
+  padding: 10px 20px 0px 0px;
+  margin-bottom: 10px;
+  
+  width: 250px;
+}
+*/
