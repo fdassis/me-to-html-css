@@ -33,6 +33,7 @@
 - ## 1. HTML / CSS
    - <a href="#Unes">Unes</a>
    - <a href="#Anna-Bella">Anna Bella</a>
+   - <a href="#TecBlog">TecBlog</a>
 ---
 
 - ### Unes
@@ -62,7 +63,13 @@
 ---
 
 
-- ### Tec News
+- ### TecBlog
+  <p float="left">
+    <img src="PROJECTS/Projeto_TecBlog/screenshot/index_01_tecblog.png" width=375 title="Pagina Inicial"/>
+
+    <img src="PROJECTS/Projeto_TecBlog/screenshot/index_02_tecblog.png" width=375 title="Postagem"/>
+  </p>  
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
