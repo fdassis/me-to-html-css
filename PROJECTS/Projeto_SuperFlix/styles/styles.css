@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #22223b;
+}
+
+/* #### Layout #### */
+#ares-superio {
+  padding: 2px;
+  background-color: #1d3557;;
+}
+
+/* #### Logo #### */
+
+#logo {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#logo h1 {
+  color: #fdfffc;
+  font-size: 2.5em;
+}
+
+#yellow {
+  color: #FFBF00;
+}
+
+/* ### Menu #### */
+
+#menu {
+  width: 70%;
+  float: right;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#menu a {
+  padding-left:20px;
+  text-align: center;
+}
+
+/* #### Formatacao de links #### */
+a {
+  text-decoration: none;
+  color: #22223b;
+}
+
+#menu a:link, #menu a:visited {
+  color: #fdfffc;
+}
+
+#menu a:hover {
+  color: #FFBF00;
+  border-bottom: 3px solid #FFBF00;
+}
+
+
+.clear{
+  clear: both;
+}
+
+/* #### Principal #### */
+#principal {
+  border-radius: 5px;
+  background-color:#fdfffc;
+  margin-top:5px;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+}
+
+/* ### Filmes em indicacoes  ###*/
+#indicacao {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.filme-indicacao{
+  margin-right: 10px;
+  float: left;
+}
+
+.filme-indicacao img {
+  width: 185px;
+  height: 278px;
+  border-radius: 10px;
+}
+
+.filme-qualidade {
+  position: absolute;
+  top: 10px;
+  display: block;
+  width: 50px;
+  margin: 2px 5px;
+  text-align: center;
+  background-color: #FFBF00;
+  border-radius: 10px;
+  color: #fdfffc;
+}
+
+.filme-nome{
+  display: block;
+  text-align: center;
+  background-color: #FFBF00;
+  border-radius: 10px;
+  color: #fdfffc;
+}
+
+/* ### Mais Visto */
+#box-center {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
+#mais-visto {
+  float: left;
+  width: 65%;
+}
+
+#mais-visto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#mais-visto button {
+  border: none;
+  border-radius: 5px;
+  background-color: #ce1235;
+  color: #F5F5F5;
+  font-size: 1.5em;
+  width: 300px;
+  height: 50px;
+}
+
+#mais-visto button:hover{
+  background-color: #E11439;
+  border: none;
+}
+
+
+
+/* ### Destaques  Lateral### */
+#destaques-lateral {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  width: 30%;
+}
+
+#destaques-lateral h3{
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 3px solid #FFBF00;
+}
+
+#destaques-lateral a img {
+  border-radius: 5px;
+  width: 70px;
+  margin-top: 5px;
+}
+
+.destaque-filme-nome {
+  position: absolute;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.destaque-filme-qualidade {
+  background-color: #FFBF00;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  margin: 10px 10px 0 100px;
+}
+
+.destaque-filme-duracao {
+  position: absolute;
+  font-weight: 100;
+  margin: 40px 0 0 10px;
+}
+
+
+/* ### Box Center 2 */
+#box-center2{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
+/* ### Filme Aleatorio */
+#filmes-aleatorio {
+  float: left;
+  width: 65%;
+}
+
+.filme {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+#filmes-aleatorio h2{
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 400;
+
+}
+
+#filmes-aleatorio img {
+  border-radius: 5px;
+  width: 185px;
+  height: 278px;
+
+}
+
+/* ### Categorias ### */
+#categorias {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 2px;
+}
+
+#categorias h3{
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 3px solid #FFBF00;
+}
+
+#categorias ul {
+  list-style: none;
+}
+
+#categorias ul li {
+  padding:  5px 10px;
+  border-radius: 10px;
+  background-color: #EBE8ED;
+  margin: 5px 0 0;
+}
