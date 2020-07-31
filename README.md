@@ -63,13 +63,13 @@
   </p>
 ---
 
-
 - ### TecBlog
   <p float="left">
     <img src="PROJECTS/Projeto_TecBlog/screenshot/index_01_tecblog.png" width=375 title="Pagina Inicial"/>
 
     <img src="PROJECTS/Projeto_TecBlog/screenshot/index_02_tecblog.png" width=375 title="Postagem"/>
   </p>  
+---
 
 - ### SuperFlix
   <p float="left">
