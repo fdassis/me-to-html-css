@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 01</title>
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+      }
+    </style>
+
+
+  </head>
+  
+  <body>
+     <h1>Calculadora</h1>
+
+     <div id="container">
+       <input type="number" name="number1" class="numberInput">
+       <select name="op" id="select" value="op">
+        <option value=""></option>
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+        <option value="*"> * </option>
+        <option value="/"> / </option>
+       </select>
+       <input type="number" name="number1" class="numberInput">
+       <input type="button" value="Calcular" id="buttonInput" onclick="cal()">
+       <div id="result">
+       <h3>Resultado</h3>
+     </div>
+      </div>
+      
+  </body>
+  
+  <script>
+    function cal() {
+      var inputNumber1 = window.document.getElementsByClassName("numberInput")[0];
+      var inputNumber2 = window.document.getElementsByClassName("numberInput")[1];
+      var select = window.document.getElementById("select");
+      var result = window.document.querySelector("div#result");
+
+      var valueSelect = select.options[select.selectedIndex].value;
+      var num1 = Number(inputNumber1.value);
+      var num2 = Number(inputNumber2.value);
+
+      switch (valueSelect) {
+        case '-':
+          resultado = num1 - num2;
+          break;
+        case '+':
+          resultado = num1 + num2;
+          break;
+
+        case '*':
+          resultado = num1 * num2;
+          break;
+        
+        case '/':
+          resultado = num1 / num2;
+          
+          break;  
+      
+        default:
+          result.innerHTML = `<strong>ERROR!: Escolha um operador!<strong>`
+          return;
+      }
+
+      result.innerHTML = `${num1} ${valueSelect} ${num2} é igula a <strong>${resultado}<strong>`
+
+    }
+  </script>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos DOM</title>
+
+  <style>
+    * {
+      margin: 0;
+      border: none;
+      padding: 0;
+    }
+
+    body {
+      background: #726a95;
+      color: #e8e8e8;
+      font-size: 20px;
+    }
+
+    h1 {
+      margin: 50px 0 0 40px;
+    }
+
+    .container {
+      display: flex;
+      position: relative;
+      margin: 10px 40px;
+    }
+    
+    .inputNumber {
+      outline: none;
+      width: 100px;
+      height: 30px;
+      border-radius: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+      font-weight: bold;
+    }
+
+    #somar {
+      width: 100px;
+      height: 30px;
+      outline: none;
+      border-radius: 10px;
+      background: #a0c1b8;
+      color: #e8e8e8;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #somar:hover {
+      background-color: #8de4cd;
+    }
+
+    #res {
+      margin-left: 40px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <h1>Soma de numeros</h1>
+  <div class="container">
+    <input type="number" name="number1" class="inputNumber">
+    <input type="number" name="number2"class="inputNumber">
+    <input type="button" id="somar" value="Somar" onclick="somar()">
+  </div>
+
+  <div id="res">Resultado</div>
+</body>
+
+<script>
+  
+  function somar() {
+    var number1 = window.document.getElementsByClassName('inputNumber')[0];
+    var number2 = window.document.getElementsByClassName('inputNumber')[1];
+
+    var res = window.document.querySelector('div#res')
+    var num1 = Number(number1.value);
+    var num2 = Number(number2.value);
+
+    resul = num1 + num2;
+    
+    res.innerHTML = `A soma entre ${num1} e ${num2} é igula a <strong>${resul}<strong>`;
+  }
+
+</script>
+
+</html>
