@@ -81,7 +81,7 @@
 
 - ### Tutormu
   <p float="left">
-    <img src="PROJECTS/projeto_Tutormu/screenshot/home.png" width=100% title="Pagina Inicial"/>
+    <img src="PROJECTS/Projeto_Tutormu/screenshot/home.png" width=100% title="Pagina Inicial"/>
   </p>
 ## :memo: Licença
 
