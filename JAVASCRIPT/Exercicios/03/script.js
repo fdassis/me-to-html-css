@@ -1,30 +1,12 @@
 function clikButton() {
-  var start = Number(document.getElementById("start").value);
-  var end = Number(document.getElementById("end").value);
-  var step = Number(document.getElementById("step").value);
-  var result = document.getElementById("result")
+  var num = Number(document.getElementById("start").value);
+  var select = document.getElementById("tab");
 
-  if(step <= 0)
-    step = 1;
-  
-  if(start == 0 || end == 0 || step == 0) {
-    result.innerHTML = `Impossivel contar`;
-  } else {
-    result.innerHTML = "Contando: <br>"
-
-    //Contagem decresente
-    if(start > end){
-      for(start; start >= end; start -= step){
-        result.innerHTML += `${start} 👉`
-      }
-    
-    // Contagem crescente   
-    } else {
-      for(start; start <= end; start += step){
-        result.innerHTML += `${start} 👉`
-      }
-    }
-    result.innerHTML += '🏁';
+  select.innerHTML = " ";
+  for (var temp = 0;temp <= 10; temp ++ ){
+    var item = document.createElement('option');
+    item.text = `${num} x ${temp} = ${num * temp}`;
+    item.value = `select${temp}`;
+    select.appendChild(item);
   }
-  
 }
