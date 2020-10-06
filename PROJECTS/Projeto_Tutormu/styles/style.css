@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+#topArea {
+  background: #f9fcfb;
+}
+
+#logo{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#topAreaLinks {
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+#topAreaLinks a{
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#topAreaLinks a:link, a:visited {
+  color: black;
+}
+
+#topAreaLinks a:hover{
+  color: #00BFA6;
+}
+
+button {
+  cursor: pointer;
+}
+
+#btnLogin {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  border: solid  #28df99 3px;
+  color: #1d2d50;
+  border-radius: 10px;
+  background-color: #f9fcfb;
+}
+
+#btnLogin:hover{
+  border-style: none;
+  background-color: #28df99;
+}
+
+#btnGetStarted {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  border-style: none;
+  color: #1d2d50;
+  border-radius: 10px;
+  background: #28df99;  
+}
+
+#btnGetStarted:hover {
+  border: solid  #28df99 3px;
+  background-color: #f9fcfb;
+}
+
+#bodyArea {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+#textLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px 0 0 50px;
+  width: 100%;
+  max-width:700px;
+}
+
+#textLeft h1{
+  width: 100px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#textLeft p {
+  width: 400px;
+  font-size: 20px;
+  color: #686d76;
+}
+
+#textLeft button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border-style: none;
+  background: #00BFA6;
+  font-weight: bold;
+  color: #f9fcfb
+}
+
+#textLeft button:hover {
+  background-color: #03a791;
+}
+
+#homeImg {
+  flex: 1;
+  background: url("../src/homeImg.svg") no-repeat center;
+  background-size: auto;
+}
