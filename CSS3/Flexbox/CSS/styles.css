@@ -8,10 +8,10 @@
   flex-wrap: nowrap;
   /* wrap | wrap-reverse */
 
-  flex-flow: row wrap-reverse;
+  /* flex-flow: row wrap-reverse; */
   /* flex-direction + flex-wrap */
 
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* flex-end | center | space-between | scape-around */
 
   /* alinhamento vertical */
@@ -19,10 +19,8 @@
   /* flex-start | flex-end | center | baseline */
 
   /* Alinhamento vertical quando os elementos estiverem uma quebra*/ 
-  align-content: stretch;
+  align-content: flex-start;
   /* flex-start | flex-end | center | space-between | space-around */
-
-
 }
 
 .item {
@@ -30,5 +28,30 @@
   color: #fff;
   padding: 20px;
   margin: 5px;
-  width: 30px;
+  height: 30px;
+
+  /* Relacionado a largura de todos os itens */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 20px;
+
+  flex: 1 1 20px;
+}
+
+.article-01 {
+  flex-grow: 3;
+  order: 1;
+  align-self: center;
+}
+
+.article-02 {
+  order: 3;
+}
+
+.article-03 {
+  order: 4;
+}
+
+.article-04 {
+  order: 2;
 }
