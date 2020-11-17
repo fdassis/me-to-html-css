@@ -5,6 +5,7 @@
   font-size: 100%;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  outline: none;
 }
 
 nav, ul {
@@ -222,10 +223,75 @@ header li:last-child {
   color: #FFFFFF;
  }
  
- @media (max-width: 850px) {
+@media (max-width: 850px) {
   .caracteristicas .grid {
     flex-direction: column;
   }
 }
 
+/* NEWSLETTER */
+.newslatter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
 
+.newslatter h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #191c03;
+  text-align: center;
+}
+
+.newslatter p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #191c03;
+  text-align: center;
+}
+
+.newslatter hr {
+  width: 200px;
+  height: 2px;
+  background-color: #191c03;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.newslatter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.newslatter input {
+  padding: 15px;
+  border: 1px solid #c3c63b;
+  border-radius: 10px;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.newslatter button {
+  padding: 15px;
+  background-color: #c3c63b;
+  color: #191c03;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.newslatter button:hover{
+  background-color: #e0e261;
+}
+
+@media (max-width: 700px) {
+  .newslatter input {
+    flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+}
